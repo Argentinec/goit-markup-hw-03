@@ -41,12 +41,6 @@ img {
 
 /*----------HEADER-----------*/ 
 
-.header {
-    padding: 24px 0;
-}
-
-
-
 .header .container {
     display: flex;
     align-items: center;
@@ -83,6 +77,9 @@ letter-spacing: 0.03em;
 }
 
 .navigation-list-link {
+   display: block;
+   padding-top: 32px;
+   padding-bottom: 32px;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.143;
@@ -123,7 +120,15 @@ letter-spacing: 0.03em;
 
 
 /*----------HERO-----------*/
+
+
+.hero {
+    text-align: center;
+}
 .hero-title {
+     margin: 215px 283px 28px;
+     width: 696px;
+     height: 120px;
      font-weight: 900;
      font-size: 44px;
      line-height: 1.364;
@@ -133,19 +138,39 @@ letter-spacing: 0.03em;
 }
 
 .modal-btn{
+    margin-left: 485px;
+    margin-right: 485px;
+    margin-bottom: 188px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    display: flex;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
+    min-width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 20px;
+    
+
 }
 /*----------END HERO-----------*/
 
 
 /*----------FEUTER-----------*/
+.feauter-list {
+    display: flex;
+}
+
+.feauter-list-item:not(:last-child) {
+    margin-right: 30px;
+    
+}
+
 .feauter-title {
+    margin-top: 109px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143px;
@@ -156,13 +181,31 @@ letter-spacing: 0.03em;
 
 
 .feauter-description{
+    margin-bottom: 94px;
      font-weight: normal;
      font-size: 14px;
      line-height: 1.714;
      letter-spacing: 0.03em;
      color: #757575;
+     width: 270px;
+     height: 101px;
 }
 /*----------END FEUTER-----------*/
+
+/*---------- ABOUT US-----------*/
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section .title {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/*----------END ABOUT US-----------*/
 
 /*----------OUR TEAM-----------*/
 .team-title{
