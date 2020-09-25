@@ -42,6 +42,10 @@ img {
 
 /*----------HEADER-----------*/ 
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header .container {
     display: flex;
     align-items: center;
@@ -129,11 +133,10 @@ letter-spacing: 0.03em;
 
 
 .hero-title {
-     margin-top: 200px;
-     margin-bottom: 30px;
-     margin-left: 236px;
-     margin-right: 236px;;
-     height: 120px;
+     padding-top: 213px;
+     padding-left: 236px;
+     padding-right: 236px;
+     padding-bottom: 30px;
      font-weight: 900;
      font-size: 44px;
      line-height: 1.364;
@@ -143,7 +146,6 @@ letter-spacing: 0.03em;
 }
 
 .modal-btn{
-
     margin-bottom: 188px;
     font-weight: 700;
     font-size: 16px;
@@ -220,6 +222,10 @@ letter-spacing: 0.03em;
 /*----------END ABOUT US-----------*/
 
 /*----------OUR TEAM-----------*/
+.team-section {
+    background: #F5F4FA;
+}
+
 .team-list  {
     display: flex;
     justify-content: space-between;
@@ -278,9 +284,13 @@ letter-spacing: 0.03em;
 
 /*----------FOOTER-----------*/
 
+.footer-section {
+    background: #2F303A;
+}
+
 .footer-section .logo {
     display: flex;
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -290,7 +300,7 @@ letter-spacing: 0.03em;
 
 .contact-list {
     display: inline-block;
-    margin-bottom: 60px
+    padding-bottom: 60px
 }
 
 .contact-list-link-address {
