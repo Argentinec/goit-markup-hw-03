@@ -37,6 +37,7 @@ img {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -55,7 +56,7 @@ img {
 
 /*----------HEADER-----------*/ 
 
-.header {
+.portfolio {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -86,7 +87,8 @@ img {
 }
 
 .logo,
-.color-logo {
+.color-logo,
+.logo-footer {
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
@@ -107,6 +109,7 @@ letter-spacing: 0.03em;
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
+.navigation-list-link:active,
 .header-address-link:hover,
 .header-address-link:focus {
     color: var(--accent-color);
@@ -205,7 +208,9 @@ letter-spacing: 0.03em;
 
 
 .feauter-description{
-     font-weight: normal;
+     width: 270px;
+     height: 75px;
+     font-weight: 400;
      font-size: 14px;
      line-height: 1.714;
      letter-spacing: 0.03em;
@@ -300,7 +305,7 @@ letter-spacing: 0.03em;
     background: #2F303A;
 }
 
-.footer-section .logo {
+.footer-section .logo-footer {
     display: flex;
     padding-top: 60px;
     margin-bottom: 20px;
@@ -320,7 +325,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF*/
+    color: #FFFFFF
 }
 
 .contact-list-link {
@@ -328,7 +333,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-/*color: rgba(255, 255, 255, 0.6);*/
+color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+    color: #FFFFFF;
 }
 
 /*----------END FOOTER-----------*/
